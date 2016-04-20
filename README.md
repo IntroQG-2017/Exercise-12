@@ -39,10 +39,10 @@ The goal of this exercise is to calculate horizontal velocity profiles across a 
     - Also include text labels beside each velocity profile listing the power-law exponent
     - **How sensitive is the velocity to the power-law exponent? What is the maximum percent difference in velocity between n = 2 and n = 4?**
   3. Include clear comments that explain what each section of your code does
-2. The [Saskatchewan glacier near Banff in Alberta, Canada](https://goo.gl/maps/R9S48J4KYPr) (Figure 2) is 1400 m wide and part of a large ice field known as the Columbia Icefield.
+2. The [Saskatchewan glacier near Banff in Alberta, Canada](https://goo.gl/maps/R9S48J4KYPr) (Figure 1) is 1400 m wide and part of a large ice field known as the Columbia Icefield.
 
     ![Saskatchewan glacier](https://upload.wikimedia.org/wikipedia/commons/a/a5/Saskatchewan_Glacier.jpg)<br/>
-    *Figure 2. Saskatchewan glacier.*
+    *Figure 1. Saskatchewan glacier.*
     
      Distance from center line [m] | Velocity [m/a] | Velocity [m/s]
      ----------------------------- | -------------- | --------------
@@ -72,10 +72,10 @@ Again, I suggest you first read through the [background and theory](https://gith
 ### Glacial flow velocities along a vertical profile
 The goal of this exercise is to calculate vertical velocity profiles across a glacier for Newtonian and non-Newtonian fluid flow resulting from a gravitational forces on the glacier.
 
-1. The [Athabasca glacier](https://goo.gl/maps/HggYfoKxEUQ2) (Figure 3) is another glacier in the Columbia Icefield.
+1. The [Athabasca glacier](https://goo.gl/maps/HggYfoKxEUQ2) (Figure 2) is another glacier in the Columbia Icefield.
 
     ![Athabasca glacier](https://upload.wikimedia.org/wikipedia/commons/4/41/Icefields_parkway.jpg)<br/>
-    *Figure 3. Athabasca glacier.*
+    *Figure 2. Athabasca glacier.*
 
     Depth from surface [m] | Height from base z [m] | Horizontal velocity [m/a] | Horizontal velocity [m/s]
     ---------------------- | ---------------------- | ------------------------- | -------------------------
@@ -120,4 +120,4 @@ A vertical velocity profile for the Athabasca glacier has been measured and the 
 This is some text. You can use *italics* or **bold** text easily. You may want to read a bit more about [formatting text in Github-flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/). You can see an example of how to display an image with a caption below.
 
 ![Text shown if image does not load](Images/sine.png)<br/>
-*Figure 2: Sine wave calculated from 0 to 2π*
+*Figure 3: Sine wave calculated from 0 to 2π*
