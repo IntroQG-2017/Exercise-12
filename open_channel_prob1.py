@@ -1,4 +1,4 @@
-# open_channel.py
+# open_channel_prob1.py
 #
 # This script calculates and plots the solution for non-dimensional velocity as
 # a function of non-dimensional distance across a channel
