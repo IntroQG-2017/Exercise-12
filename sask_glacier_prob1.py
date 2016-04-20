@@ -1,4 +1,4 @@
-# sask_glacier_ex1.py
+# sask_glacier_prob1.py
 #
 # This script ...
 #
