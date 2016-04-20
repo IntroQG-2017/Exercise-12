@@ -96,14 +96,24 @@ The goal of this exercise is to calculate vertical velocity profiles across a gl
     209 | 0 | 4 | 1.30E-07
 *Table 2. Velocities measured from a vertical profile through Athabasca glacier.*<br/><br/>
 A vertical velocity profile for the Athabasca glacier has been measured and the measurements are in the file [`atha_glacier_velo.txt`](atha_glacier_velo.txt) (Table 2). Modify the provided Python script [`atha_glacier_ex2.py`](atha_glacier_ex2.py) to plot the velocity measurements (*x*-axis) versus the height (*z*-axis) from the bed. On the same plot, include Newtonian and non-Newtonian fluid flow profiles as well (Equation 19 from the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-2.md)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your code, you should
+  1. Solve for the velocity profile for a Newtonian fluid. Your profile should have a no-slip basal boundary condition (*u*<sub>b</sub> = 0) and honor the observed surface velocity.
+
+    :heavy_exclamation_mark: **NOTE**: Again, in this problem there is an unknown term *γ*<sub>x</sub> in Equation 19. However, you can solve for it using the condition that the maximum flow velocity (~0.91 × 10<sup>-6</sup> m/s) occurs at *z* = *h* = 209 m. Once you have solved for that term, you can insert it back into Equation 19 to solve for the velocities elsewhere.
+  2. Solve for the velocity profiles of non-Newtonian fluids with power-law exponents of *n* = 2, 3, 4, 5 (Equation 19). You should set ub equal to the observed value (Table 2) and your Python program should honour the observed surface velocity (see tip above).
+  3. Load in the observed velocity profile data
+  4. Generate a plot of the observed velocity values, the predicted Newtonian velocity profile and the 4 non-Newtonian velocity profiles
+  5. Include clear comments that explain what each section of the program does
 
 ## What to submit
 **For this exercise, your modifications to the end of this document should include**
 
-1. One plot each for Parts 1-3 and Part 5.
-2. One plot for **each** combination of *m* and *n* values for Part 4.
-3. A figure caption beneath **each** plot explaining what it shows as if it was in a scientific publication.
-4. Answers to the questions in bold for Parts 1-5 inserted beneath the associated plots and captions in each Part.
+1. Plots of the non-dimensional velocity profiles for Newtonian and non-Newtonian fluids **AND** the velocity profile across the Saskatchewan glacier with points showing the measured velocities for Problem 1
+2. One plot of the Newtonian and non-Newtonian velocity profiles across the Athabasca glacier with data points showing the measured velocities for Problem 2
+3. Figure captions for each plot describing the plot as if it were in a scientific journal article.
+  - For the second plot in Problem 1, list the most likely power-law exponent *n* for the Saskatchewan glacier in the caption
+  - For Problem 2, list the most likely value for the power-law *n* exponent for the Athabasca glacier in the caption
+4. Answers to the questions in bold for Problem 1
+5. Copies of your modified Python scripts for Problems 1 and 2
 
 # Answers
 ## Problem 1
