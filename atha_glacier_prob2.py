@@ -1,4 +1,4 @@
-# atha_glacier_ex2.py
+# atha_glacier_prob2.py
 #
 # This script ...
 #
