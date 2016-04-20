@@ -67,7 +67,7 @@ The goal of this exercise is to calculate horizontal velocity profiles across a 
 
 ## Problem 2 - Non-Newtonian (nonlinear) flow down an inclined plane
 ### Background and theory
-Again, I suggest you first read through the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-1.md) before proceeding with this problem.
+Again, I suggest you first read through the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-2.md) before proceeding with this problem.
 
 ### Glacial flow velocities along a vertical profile
 The goal of this exercise is to calculate vertical velocity profiles across a glacier for Newtonian and non-Newtonian fluid flow resulting from a gravitational forces on the glacier.
@@ -77,7 +77,25 @@ The goal of this exercise is to calculate vertical velocity profiles across a gl
     ![Athabasca glacier](https://upload.wikimedia.org/wikipedia/commons/4/41/Icefields_parkway.jpg)<br/>
     *Figure 3. Athabasca glacier.*
 
-
+    Depth from surface [m] | Height from base z [m] | Horizontal velocity [m/a] | Horizontal velocity [m/s]
+    ---------------------- | ---------------------- | ------------------------- | -------------------------
+    0 | 209 | 28.6 | 9.10E-07
+    15 | 195 | 28.5 | 9.00E-07
+    30 | 180 | 28.5 | 9.00E-07
+    45 | 165 | 28.4 | 9.00E-07
+    60 | 150 | 28.2 | 8.90E-07
+    75 | 135 | 28.0 | 8.90E-07
+    90 | 120 | 27.7 | 8.80E-07
+    105 | 105 | 27.2 | 8.60E-07
+    120 | 90 | 26.5 | 8.40E-07
+    135 | 75 | 25.5 | 8.10E-07
+    150 | 60 | 24.0 | 7.60E-07
+    165 | 45 | 21.5 | 6.80E-07
+    180 | 30 | 17.5 | 5.50E-07
+    195 | 15 | 10 | 3.20E-07
+    209 | 0 | 4 | 1.30E-07
+*Table 2. Velocities measured from a vertical profile through Athabasca glacier.*<br/><br/>
+A vertical velocity profile for the Athabasca glacier has been measured and the measurements are in the file [`atha_glacier_velo.txt`](atha_glacier_velo.txt) (Table 2). Modify the provided Python script [`atha_glacier_ex2.py`](atha_glacier_ex2.py) to plot the velocity measurements (*x*-axis) versus the height (*z*-axis) from the bed. On the same plot, include Newtonian and non-Newtonian fluid flow profiles as well (Equation 19 from the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-2.md)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your code, you should
 
 ## What to submit
 **For this exercise, your modifications to the end of this document should include**
