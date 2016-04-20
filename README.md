@@ -25,7 +25,7 @@ Now we are ready to start.
 
 ## Problem 1 - Non-Newtonian (nonlinear) flow in open channels
 ### Background and theory
-I suggest you first read through the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-1.md) before proceeding with the exercise.
+I suggest you first read through the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-1.md) before proceeding with this problem.
 
 ### Planform flow velocity across a glacier
 The goal of this exercise is to calculate horizontal velocity profiles across a glacier for Newtonian and non-Newtonian fluid flow resulting from a pressure gradient.
@@ -58,8 +58,24 @@ The goal of this exercise is to calculate horizontal velocity profiles across a 
      *Table 1. Velocity measurements across the Saskatchewan glacier.*<br/><br/>
      The file [`sask_glacier_velo.txt`](sask_glacier_velo.txt) contains a series of surface velocities measured at various locations across the glacier (Table 1). Modify the Python script [`sask_glacier_ex1.py`](sask_glacier_ex1.py) to plot the measured velocities as a function of distance from the center line of the glacier, and also plot predicted velocity profiles for several non-Newtonian fluids (Equation 10 from the the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-1.md)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your program you should
   1. Solve for the velocity profile of a non-Newtonian fluid with power-law exponents of *n* = 2, 3, 4, 5
+    :heavy_check_mark: **HINT**: The term (p<sub>1</sub> - p<sub>0</sub>) / *L* in Equation 10 is an unknown. However, you can solve for it using the condition that the maximum flow velocity (~2.41 × 10<sup>-6</sup> m/s) occurs at *y* = 0. Once you have solved for that term, you can insert it back into Equation 10 to solve for the velocities elsewhere.<br/><br/>
+    :heavy_exclamation_mark: **NOTE**: Again, the flow is symmetric about *y* = 0 and for negative *y* values Equation 10 does not work properly. You can solve one half of the flow (*y* ≥ 0) and use symmetry to plot the other half of the flow.
+  2. Load the observed velocity data
+  3. Plot the measured velocities along with the 4 predicted velocity profiles. Be sure to label your axes and include a title. Also include text labels beside each velocity profile listing the power-law exponent.
+  4. Include clear comments explaining what each section of the code does.
 
-    
+## Problem 2 - Non-Newtonian (nonlinear) flow down an inclined plane
+### Background and theory
+Again, I suggest you first read through the [background and theory](https://github.com/Intro-Quantitative-Geology/Viscous-flows/blob/master/Exercise-5-theory-1.md) before proceeding with this problem.
+
+### Glacial flow velocities along a vertical profile
+The goal of this exercise is to calculate vertical velocity profiles across a glacier for Newtonian and non-Newtonian fluid flow resulting from a gravitational forces on the glacier.
+
+1. The [Athabasca glacier](https://goo.gl/maps/HggYfoKxEUQ2) (Figure 3) is another glacier in the Columbia Icefield.
+
+    ![Athabasca glacier](https://upload.wikimedia.org/wikipedia/commons/4/41/Icefields_parkway.jpg)<br/>
+    *Figure 3. Athabasca glacier.*
+
 
 
 ## What to submit
