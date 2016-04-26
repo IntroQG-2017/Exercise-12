@@ -38,15 +38,15 @@ n = 0
 
 # Velocity profile for a Newtonian or non-Newtonian fluid
 for i in range():
-    n = 
+    n =
     if n == 1:
-        
+
     else:
-        ub = 
-    
+        ub =
+
     for j in range(len(z)):
-                                # Equation 2.7 rearranged to solve for gamma_x
-                                # Equation 2.7
+                                # Equation 19 rearranged to solve for gamma_x
+                                # Equation 19
 
 # Plot predicted velocity profiles
 plt.plot()

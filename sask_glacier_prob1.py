@@ -36,13 +36,13 @@ n = 1
 
 # Velocity profile for a Newtonian or non-Newtonian fluid
 for i in range():
-    n = 
-    p =                      # Equation 1.10 rearranged to solve for (p1-p0)/L
+    n =
+    p =                      # Equation 10 rearranged to solve for (p1-p0)/L
     for j in range():
         if :
-                             # Equation 1.10
+                             # Equation 10
         else:
-                             # Equation 1.10
+                             # Equation 10
 
 # Plot predicted velocity profiles
 plt.plot()
