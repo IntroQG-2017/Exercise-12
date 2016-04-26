@@ -19,10 +19,10 @@ data_u_ms = np.zeros(len(data))   # Create empty array for data velocities [m/s]
 
 # Loop over lines in file and split into different variables
 for line in data:
-    data_depth[linecount] = data[0]
-    data_z[linecount] = data[1]
-    data_u_ma[linecount] = data[2]
-    data_u_ms[linecount] = data[3]
+    data_depth[linecount] = line[0]
+    data_z[linecount] = line[1]
+    data_u_ma[linecount] = line[2]
+    data_u_ms[linecount] = line[3]
 
 #--- User-defined variables
 a =                    # Viscosity [1/(Pa**3.0 s)]
