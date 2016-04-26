@@ -25,9 +25,9 @@ data_u_ms = np.zeros(len(data))  # Create empty array for data velocities [m/s]
 
 # Loop over lines in file and split into different variables
 for line in data:
-    data_y[linecount] = data[0]
-    data_u_ma[linecount] = data[1]
-    data_u_ms[linecount] = data[2]
+    data_y[linecount] = line[0]
+    data_u_ma[linecount] = line[1]
+    data_u_ms[linecount] = line[2]
     linecount=linecount+1
 
 # Equations
