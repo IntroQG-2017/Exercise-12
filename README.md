@@ -1,27 +1,14 @@
-# Lab-exercise-5
+# Exercise 12: Viscous flow of ice
 
 ## Sources
-This tutorial is based on a MATLAB exercise from [Prof. Todd Ehlers (Uni Tübingen)](http://www.geo.uni-tuebingen.de/?id=2183).
+This tutorial is based on a MATLAB exercise from [Prof. Todd Ehlers (University of Tübingen, Germany)](http://www.geo.uni-tuebingen.de/?id=2183).
 
 ## Overview
-As we’ve seen previously, most landforms on Earth are sculpted by the flow of fluids across the landscape. Erosion by glaciers can significantly change the Earth’s surface, moving vast quantities of material from high elevations to lower elevations. Glacial landscapes are unique and clearly reflect erosion by processes that differ greatly from those found in fluvial systems. To understand how material is moved within glacial systems, it is important to first understand the dominant controls on glacier velocities. As usual, you are asked to modify an starter Python script to produce plots and to answer questions related to the plots. We will again be using **Spyder** for these exercises.
-
-## Getting started
-1. You can start by making a folder to store files for this week's exercises in a Terminal.
-
-    ```bash
-    $ cd Desktop
-    $ mkdir Lab-5
-    $ cd Lab-5
-    ```
-**Reminder**: the `$` symbol above represents the command prompt in the Terminal window.
-2. Now you can open **Spyder**.
-
-    ```bash
-    $ spyder
-    ```
-
-Now we are ready to start.
+As we’ve seen previously, most landforms on Earth are sculpted by the flow of fluids across the landscape.
+Erosion by glaciers can significantly change the Earth's surface, moving vast quantities of material from high elevations to lower elevations.
+Glacial landscapes are unique and clearly reflect erosion by processes that differ greatly from those found in fluvial systems.
+To understand how material is moved within glacial systems, it is important to first understand the dominant controls on glacier velocities.
+As usual, you are asked to modify an starter Python script to produce plots and to answer questions related to the plots.
 
 ## Problem 1 - Non-Newtonian (nonlinear) flow in open channels
 ### Background and theory
