@@ -17,7 +17,7 @@ I suggest you first read through the [background and theory](https://github.com/
 ### Planform flow velocity across a glacier
 The goal of this exercise is to calculate horizontal velocity profiles across a glacier for Newtonian and non-Newtonian fluid flow resulting from a pressure gradient.
 
-1. Modify the Python script file [`open_channel_prob1.py`](open_channel_prob1.py) to plot the non-dimensional velocity (*u*/*u*̅) of a fluid as a function of non-dimensional distance (*y*/*h*) across the channel of width *h* (Equation 12 from the the [background and theory](https://github.com/Intro-Quantitative-Geology/Lesson-12-Viscous-flows/blob/master/Lesson/Exercise-12-theory-1.md)).
+1. Modify the Python script file [`open_channel_prob1.py`](open_channel_prob1.py) to plot the non-dimensional velocity (*u*/*ū*) of a fluid as a function of non-dimensional distance (*y*/*h*) across the channel of width *h* (Equation 12 from the the [background and theory](https://github.com/Intro-Quantitative-Geology/Lesson-12-Viscous-flows/blob/master/Lesson/Exercise-12-theory-1.md)).
 Assume the flow is symmetrical about *y* = 0 and the velocity is zero at the boundaries of the channel.
 In your Python script you should
   1. Solve for the non-dimensional velocity across the channel for a Newtonian fluid and for non-Newtonian fluid with power-law exponents of *n* = 2, 3, 4, 5
