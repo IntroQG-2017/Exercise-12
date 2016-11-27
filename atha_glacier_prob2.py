@@ -1,8 +1,10 @@
-# atha_glacier_prob2.py
-#
-# This script ...
-#
-# NAME - DATE
+"""
+atha_glacier_prob2.py
+
+This script ...
+
+@author: NAME - DD.MM.YYYY
+"""
 
 # Import NumPy
 import numpy as np
