@@ -1,8 +1,10 @@
-# sask_glacier_prob1.py
-#
-# This script ...
-#
-# NAME - DATE
+"""
+sask_glacier_prob1.py
+
+This script ...
+
+@author: NAME - DD.MM.YYYY
+"""
 
 # Import NumPy
 import numpy as np
@@ -28,7 +30,7 @@ for line in data:
     data_y[linecount] = line[0]
     data_u_ma[linecount] = line[1]
     data_u_ms[linecount] = line[2]
-    linecount=linecount+1
+    linecount = linecount + 1
 
 # Equations
 u = np.zeros([n_prof,len()])
