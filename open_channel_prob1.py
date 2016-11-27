@@ -1,9 +1,11 @@
-# open_channel_prob1.py
-#
-# This script calculates and plots the solution for non-dimensional velocity as
-# a function of non-dimensional distance across a channel
-#
-# NAME - DATE
+"""
+open_channel_prob1.py
+
+This script calculates and plots the solution for non-dimensional velocity as
+a function of non-dimensional distance across a channel
+
+@author: NAME - DD.MM.YYYY
+"""
 
 # Import NumPy
 import numpy as np
@@ -17,7 +19,7 @@ n_prof = 5             # Number of velocity profiles to calculate
 
 # Equations
 u_nd = np.zeros([n_prof,len()])
-n=0
+n = 0
 
 # Non-dimensional velocity profile for a Newtonian or non-Newtonian fluid
 for i in range():
