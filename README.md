@@ -85,8 +85,10 @@ The goal of this exercise is to calculate vertical velocity profiles across a gl
     180 | 30 | 17.5 | 5.50E-07
     195 | 15 | 10 | 3.20E-07
     209 | 0 | 4 | 1.30E-07
-*Table 2. Velocities measured from a vertical profile through Athabasca glacier.*<br/><br/>
-A vertical velocity profile for the Athabasca glacier has been measured and the measurements are in the file [`atha_glacier_velo.txt`](atha_glacier_velo.txt) (Table 2). Modify the provided Python script [`atha_glacier_prob2.py`](atha_glacier_prob2.py) to plot the velocity measurements (*x*-axis) versus the height (*z*-axis) from the bed. On the same plot, include Newtonian and non-Newtonian fluid flow profiles as well (Equation 19 from the [background and theory](https://introqg.github.io/2017/lessons/L12/exercise-12-theory.html#problem-2)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your code, you should
+
+    *Table 2. Velocities measured from a vertical profile through Athabasca glacier.*<br/><br/>
+
+    A vertical velocity profile for the Athabasca glacier has been measured and the measurements are in the file [`atha_glacier_velo.txt`](atha_glacier_velo.txt) (Table 2). Modify the provided Python script [`atha_glacier_prob2.py`](atha_glacier_prob2.py) to plot the velocity measurements (*x*-axis) versus the height (*z*-axis) from the bed. On the same plot, include Newtonian and non-Newtonian fluid flow profiles as well (Equation 19 from the [background and theory](https://introqg.github.io/2017/lessons/L12/exercise-12-theory.html#problem-2)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your code, you should
     1. Solve for the velocity profile for a Newtonian fluid. Your profile should have a no-slip basal boundary condition (*u*<sub>b</sub> = 0) and honor the observed surface velocity.
 
         :heavy_exclamation_mark: **NOTE**: Again, in this problem there is an unknown term *γ*<sub>x</sub> in Equation 19. However, you can solve for it using the condition that the maximum flow velocity (~0.91 × 10<sup>-6</sup> m/s) occurs at *z* = *h* = 209 m. Once you have solved for that term, you can insert it back into Equation 19 to solve for the velocities elsewhere.
