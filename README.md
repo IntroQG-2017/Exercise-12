@@ -33,19 +33,21 @@ In your Python script you should
     ![Saskatchewan glacier](https://upload.wikimedia.org/wikipedia/commons/a/a5/Saskatchewan_Glacier.jpg)<br/>
     *Figure 1. Saskatchewan glacier.*
     
-     Distance from center line [m] | Velocity [m/a] | Velocity [m/s]
-     ----------------------------- | -------------- | --------------
-     -660 | 12 | 3.80E-07
-     -640 | 22 | 7.00E-07
-     -570 | 42 | 1.33E-06
-     -460 | 63 | 2.00E-06
-     -220 | 74 | 2.35E-06
-     40 | 76 | 2.41E-06
-     180 | 74 | 2.35E-06
-     260 | 72 | 2.28E-06
-     500 | 51 | 1.62E-06
-     *Table 1. Velocity measurements across the Saskatchewan glacier.*<br/><br/>
-     The file [`sask_glacier_velo.txt`](sask_glacier_velo.txt) contains a series of surface velocities measured at various locations across the glacier (Table 1). Modify the Python script [`sask_glacier_prob1.py`](sask_glacier_prob1.py) to plot the measured velocities as a function of distance from the center line of the glacier, and also plot predicted velocity profiles for several non-Newtonian fluids (Equation 10 from the the [background and theory](https://introqg.github.io/2017/lessons/L12/exercise-12-theory.html#problem-1)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your program you should
+    Distance from center line [m] | Velocity [m/a] | Velocity [m/s]
+    ----------------------------- | -------------- | --------------
+    -660 | 12 | 3.80E-07
+    -640 | 22 | 7.00E-07
+    -570 | 42 | 1.33E-06
+    -460 | 63 | 2.00E-06
+    -220 | 74 | 2.35E-06
+    40 | 76 | 2.41E-06
+    180 | 74 | 2.35E-06
+    260 | 72 | 2.28E-06
+    500 | 51 | 1.62E-06
+
+    *Table 1. Velocity measurements across the Saskatchewan glacier.*<br/><br/>
+
+    The file [`sask_glacier_velo.txt`](sask_glacier_velo.txt) contains a series of surface velocities measured at various locations across the glacier (Table 1). Modify the Python script [`sask_glacier_prob1.py`](sask_glacier_prob1.py) to plot the measured velocities as a function of distance from the center line of the glacier, and also plot predicted velocity profiles for several non-Newtonian fluids (Equation 10 from the the [background and theory](https://introqg.github.io/2017/lessons/L12/exercise-12-theory.html#problem-1)). Assume *a* = 5 × 10<sup>-24</sup> Pa<sup>-3</sup> s<sup>-1</sup>. In your program you should
     1. Solve for the velocity profile of a non-Newtonian fluid with power-law exponents of *n* = 2, 3, 4, 5
 
         :heavy_check_mark: **HINT**: The term (p<sub>1</sub> - p<sub>0</sub>) / *L* in Equation 10 is an unknown. However, you can solve for it using the condition that the maximum flow velocity (~2.41 × 10<sup>-6</sup> m/s) occurs at *y* = 0. Once you have solved for that term, you can insert it back into Equation 10 to solve for the velocities elsewhere.<br/><br/>
